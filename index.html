@@ -2,120 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maplebrook Public Library</title>
-    <style>
-    body { font-family: Inter, Arial, sans-serif; color: #3d3737; background: #ffffff; }
-    .tagline { color: #4e4e4e; }
-    a:focus-visible { outline: 3px solid #0b319a; outline-offset: 3px; }
-    .skip-link {
-      position: absolute;
-      top: -100px;
-      left: 0;
-      z-index: 100;
-      background: #ffffff;
-      padding: 8px 16px;
-    }
-    .skip-link:focus { top: 0; }
-  </style>
   </head>
 
   <body> 
-    <a href="#main" class="skip-link">Skip to main content</a>
+    <a href="#main" class="skip-link" hidden>Skip to main content</a>
 
     <!-- Header -->
-    <header>
-      <img src="Images/LOGO.png" alt="Maplebrook Public Library Logo" width="200" height="40">
+    <header class="site-header">
+      <img src="Images/LOGO.png" alt="Maplebrook Public Library Logo" width="200" height="50">
 
        <!-- Main Navigation -->
-    <nav aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="Registering.html">Registering</a>
-      <a href="News.html">News</a>
-      <a href="Researches.html">Research</a>
-      <a href="Blog.html">Blog</a>
-      <a href="Events.html">Events</a>
+    <nav class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li></li><a href="Registering.html">Registering</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Researches.html">Research</a></li>
+        <li><a href="Blog.html">Blog</a></li>
+        <li><a href="Events.html">Events</a></li>
+      </ul>
     </nav>
-    <search>
+    <div class="search-container">
+    <search class="search-bar">
       <input type="text" placeholder="Search...">
-      <button type="submit">Search</button>
+      <button type="submit" class="search-button">Search</button>
     </search>
+    <button class="log-in-button" onclick="window.location.href='Login.html'">Sign in</button>
     <hr>
     </header>
+  </div>
 
     <!-- Main Content -->
     <main id="main">
 
       <!-- Hero Section -->
-      <section>
-        <img src="Images/HeroImage.png" alt="Interior of Maplebrook Public Library with shelves of books" width="600" height="400">
-        <h1>Welcome to Maplebrook Public Library</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste maxime fugiat quam harum amet. Aut nihil facere animi quae unde? Placeat accusantium deleniti quidem vero mollitia laborum illo consectetur officiis?</p>
-              <a href="Registering.html">Registering</a>
-            
-            <hr>
-        </section>
+      <div class="hero">
+        <div class="hero-copy">
+         <h1>Welcome to Maplebrook Public Library</h1>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste maxime fugiat quam harum amet. Aut nihil facere animi quae unde? Placeat accusantium deleniti quidem vero mollitia laborum illo consectetur officiis?</p>
+         <a  class="register-link" href="Registering.html">Registering</a>
+        </div>
+             <img src="Images/HeroImage.png" class="hero-image" alt="Interior of Maplebrook Public Library with shelves of books" width="600" height="400">
+        </div>
 
       <!-- Featured Content -->
+      <section>
+        <h2 class="featured-content">Explore our library</h2>
      <div class="card">
-       <h2>Explore our library</h2>
        <div class="card-container">
          <img src="Images/News.png" alt="Reading a newspaper" width="250" height="150">
+         <br>
          <a href="News.html">News</a>
        </div>
        <div class="card-container">
          <img src="Images/Researches.png" alt="Several books for reading" width="250" height="150">
+         <br>
          <a href="Researches.html">Research</a>
        </div>
        <div class="card-container">
          <img src="Images/Blog.png" alt="Typing on a laptop" width="250" height="150">
+         <br>
          <a href="Blog.html">Blog</a>
        </div>
        <div class="card-container">
          <img src="Images/Events.png" alt="An event room with chairs and a projector" width="250" height="150">
+         <br>
          <a href="Events.html">Events</a>
        </div>
        <hr>
      </div>
+      </section>
 
     <!-- Meeting Room Booking -->
-    <section>
+    <section class="meeting-room">
       <h2>
         Book a meeting room
       </h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste maxime fugiat quam harum amet.</p>
-        <a href="Events.html">Book a meeting room</a>
-      <hr>
+        <a class="booking" href="Events.html">Book a meeting room</a>
+      
     </section>
 
     <!-- About us -->
-    <section>
+    <section class="about-section">
+      <div class="about-copy">
       <h2>
         About us
       </h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste maxime fugiat quam harum amet. Aut nihil facere animi quae unde? Placeat accusantium deleniti quidem vero mollitia laborum illo consectetur officiis?</p>
+      <br>
+      <p>At Maplebrook Public Library, we believe that a library is more than just a place to borrow books. It is a welcoming space where people of all ages can learn, explore new ideas, and connect with their community.
+
+        Our mission is to inspire curiosity, encourage lifelong learning, and make knowledge accessible to everyone. From our diverse collection of books and digital resources to educational programs, workshops, and community events, we offer something for every interest.
+
+        Whether you're looking for a quiet place to study, researching a new topic, or simply enjoying a good book, Maplebrook Public Library is here to support your journey. We are proud to bring people together and create a space where everyone feels welcome.</p>
+      <br>
+      <a class="register-link" href="About-us.html">Learn more</a>
+      </div>
+      <div class="about-photos">
       <img src="Images/Aboutus1.png" alt="The corridor of the library" width="300" height="200">
       <img src="Images/Aboutus2.png" alt="A man reading a book with a cup of coffee" width="300" height="200">
       <img src="Images/Aboutus3.png" alt="Group study section of the library" width="300" height="200">
+      </div>
     </section>
 
     <!-- Contact us -->
-    <section>
+    <section class="contact-section">
+      <div class="contact-map">
+        <img src="Images/Map.picture.png" alt="Map of the library location" width="400" height="300">
+      </div>
+      <div class="contact-copy">
       <h2>Contact us</h2>
       <h3>Address</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-      <a href="https://www.google.ca/maps" target="_blank">
-        <img src="Icons/location-pin-alt-svgrepo-com.svg" alt="Location icon" width="24" height="24">MAP
+      <a class="register-link" href="https://www.google.ca/maps" target="_blank">
+        <img src="Icons/location-pin-alt-svgrepo-com.svg" alt="Location icon" width="24" height="24">Visit our location
       </a>
       <h3>Phone Information</h3>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
       <img src="Icons/phone-rounded-svgrepo-com.svg" alt="Phone icon" width="24" height="24">
-      <a href="tel:437-456-7890">Call</a>
+      <a class="register-link" href="tel:437-456-7890">Contact us</a>
+      </div>
     </section>
-<hr>
+
       <!-- Social Media -->
-      <div>
+      <div class="social-nav">
         <img src="Icons/instagram-svgrepo-com.svg" alt="Instagram icon" width="24" height="24">
         <a href="https://www.instagram.com">Instagram</a>
         <img src="Icons/facebook-svgrepo-com.svg" alt="Facebook icon" width="24" height="24">
@@ -125,18 +138,28 @@
         <img src="Icons/linkedin-logo-svgrepo-com.svg" alt="Linkedin icon" width="24" height="24">
         <a href="https://www.linkedin.com">Linkedin </a>
       </div>
-      <hr>
     
     </main>
 
   <!-- main footer -->
-    <footer>
-      <h4>Maplebrook Library</h4>
-      <a href="About-us.html">About us</a>
-      <a href="Contact-us.html">Contact us</a>
-      <a href="FAQ.html">FAQs</a>
-      <a href="Events.html">Meeting Rooms</a>
-      <a href="Registering.html">Opening Hours</a>
+    <footer class="site-footer" display="grid" grid-template-areas="links brand" grid-template-columns="1fr auto" align-items="start" column-gap="40px" padding="62px max(var(--gutter), calc((100% - var(--container)) / 2)) 24px" background="#211917" color="var(--cream)">
+      <div class="footer-brand">
+        <img src="Images/Logo-Footer.png" alt="Maplebrook Public Library Logo" width="200" height="50">
+      </div>
+      <div class="footer-legal">
+        <p>Maplebrook Public Library</p>
+        <p>123 Main Street, Maplebrook, USA</p>
+        <p>Email: info@maplebrooklibrary.ca</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="About-us.html">About us</a></li>
+          <li><a href="Contact-us.html">Contact us</a></li>
+          <li><a href="FAQ.html">FAQs</a></li>
+          <li><a href="Events.html">Meeting Rooms</a></li>
+          <li><a href="Registering.html">Opening Hours</a></li>
+        </ul>
+      </nav>
       <p>Copy Rights/2026</p>
     </footer>
   </body>
