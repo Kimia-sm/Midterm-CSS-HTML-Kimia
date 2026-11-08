@@ -101,4 +101,5 @@ HTML project changes based on the instructor's feedback:
 10. Fixing code indentation.
 11. Naming the titles of missing pages.
 12. Adding a CSS link to all pages.
-13. 
+13. Validation (4/10): Five pages pass, but index.html has 13 errors: an empty li in the nav, misnested header/div tags, and CSS written as attributes on the footer.
+For this feedback, I couldn't find any errors and tried it myself with the validator, and I added my validator screenshot with no errors.
