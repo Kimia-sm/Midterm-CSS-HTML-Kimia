@@ -98,4 +98,4 @@ HTML project changes based on the instructor's feedback:
 7. Standardizing footer headings based on page hierarchy.
 8. Correcting a spelling error in 'archives' on the 'news' page.
 9. Fixing the Skip Link and the meeting room button focus.
-10. 
+10. Fixing code indentation.
