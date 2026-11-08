@@ -100,3 +100,5 @@ HTML project changes based on the instructor's feedback:
 9. Fixing the Skip Link and the meeting room button focus.
 10. Fixing code indentation.
 11. Naming the titles of missing pages.
+12. Adding a CSS link to all pages.
+13. 
