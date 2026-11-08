@@ -99,3 +99,4 @@ HTML project changes based on the instructor's feedback:
 8. Correcting a spelling error in 'archives' on the 'news' page.
 9. Fixing the Skip Link and the meeting room button focus.
 10. Fixing code indentation.
+11. Naming the titles of missing pages.
