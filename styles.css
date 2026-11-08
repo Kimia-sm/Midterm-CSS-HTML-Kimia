@@ -240,7 +240,7 @@ body { background-color: var(--page-bg); }
 .meeting-room h2 { font-size: 28px; margin-bottom: 10px; color:antiquewhite}
 .meeting-room p { font-size: 16px; max-width: 800px; margin: 0 auto 24px; color:antiquewhite} 
 .booking {background-color:#f0f0f0; color: #591E0F; display: inline-block; border: 3px solid #591E0F; outline:#fff; border-radius: 6px; padding: 12px 26px; min-width: 265px; font-weight: 600; font-size: 16px; text-decoration:none;}
-.booking:hover {background-color:#9B7050; color: #f0f0f0; border: 3px solid #591E0F; outline:#fff; border-radius: 6px; padding: 12px 26px; min-width: 265px; font-weight: 600; font-size: 16px; text-decoration:none;}
+.booking:hover {background-color:#9B7050; color: #f0f0f0; border: 3px solid #591E0F;  border-radius: 6px; padding: 12px 26px; min-width: 265px; font-weight: 600; font-size: 16px; text-decoration:none;}
 
 .about-section {
   display: grid;
