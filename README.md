@@ -92,3 +92,5 @@ HTML project changes based on the instructor's feedback:
 1. Creating "About Us," "Contact Us," and "FAQ" pages with proper linking in the footer section.
 2. Adding Arial-label in footer
 3. changing divs to section in events.html
+4. Editing the footer section on the Research page, similar to other pages.
+5. Add `alt` attributes to the icons and remove the size attributes, as sizing is defined in the CSS.
