@@ -94,3 +94,5 @@ HTML project changes based on the instructor's feedback:
 3. changing divs to section in events.html
 4. Editing the footer section on the Research page, similar to other pages.
 5. Add `alt` attributes to the icons and remove the size attributes, as sizing is defined in the CSS.
+6. Placing a search box in a form using the GET method.
+7. Standardizing footer headings based on page hierarchy.
