@@ -86,3 +86,9 @@ Spacing	Usage
 24px	Between headings and paragraphs
 32px	Between cards
 64px	Between major sections
+
+
+HTML project changes based on the instructor's feedback:
+1. Creating "About Us," "Contact Us," and "FAQ" pages with proper linking in the footer section.
+2. Adding Arial-label in footer
+3. changing divs to section in events.html
