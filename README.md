@@ -96,3 +96,4 @@ HTML project changes based on the instructor's feedback:
 5. Add `alt` attributes to the icons and remove the size attributes, as sizing is defined in the CSS.
 6. Placing a search box in a form using the GET method.
 7. Standardizing footer headings based on page hierarchy.
+8. Correcting a spelling error in 'archives' on the 'news' page.
